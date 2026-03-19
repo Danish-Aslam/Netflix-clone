@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-image: url("assets/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:max(1200px , 100vw);
+    height: 80vh;
+    position: relative;
+}
+
+.header .box{
+    background-color: black;
+    opacity: 0.7;
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.header .nav .logo img{
+    height: 40px;
+    color: rgb(255, 20, 20);
+    z-index: 1;
+}
+
+.nav{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75vw;
+    margin: auto;
+    padding-top: 24px;
+    z-index: 1;
+    
+}
+
+.header .nav button{ 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    padding: 7px 16px;
+    border-radius: 5px;
+    font-size: 15px;
+}
